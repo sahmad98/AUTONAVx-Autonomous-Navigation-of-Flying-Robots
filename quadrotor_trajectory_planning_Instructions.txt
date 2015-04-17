@@ -1,0 +1,20 @@
+ In this exercise we placed several beacons in the world. Your task is to stear the quadrotor through each of them. 
+ The order in which you pass through the beacons does not matter. Instead of flying manually we provide a simple 
+ interface to specify a series of motion commands.
+
+Below the simulation window is a python code editor where you can define the motion commands inside the plan_mission 
+function. Create a list of motion commands using the following functions defined in the quadrotor.command package.
+
+    forward(x) - move x meters forward
+    backward(x) - move x meters backward
+    left(x) - move x meters to the left
+    right(x) - move x meters to the right
+    up(x) - move x meters up
+    down(x) - move x meters down
+    turn_left(x) - turn x degrees to the left
+    turn_right(x) - turn x degrees to the right
+
+Afterwards add the commands to the mission using mission.add_commands(commands).
+
+Each square of the grid has a side length of 0.5 meters. To send the quadrotor along your trajectory click on the 
+play button. NOTE: All beacons have to be green before you click the check button at the bottom of the page.
