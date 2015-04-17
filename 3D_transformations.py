@@ -1,4 +1,4 @@
-''In this exercise we want to compute the position of the quadrotor from observations of visual markers. The 
+'''In this exercise we want to compute the position of the quadrotor from observations of visual markers. The 
 markers are detected in images recorded from the downfacing camera of the quadrotor. We also assume the position 
 of the markers in the world are known.
 
