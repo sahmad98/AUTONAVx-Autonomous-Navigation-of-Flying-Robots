@@ -1,3 +1,3 @@
 # AUTONAVx-Autonomous-Navigation-of-Flying-Robots
 
-Homework solution for edx course on Autonomous Navigation offered by TUM.
+My Homework solutions for edx course on Autonomous Navigation offered by TUM during May-June 2014.
